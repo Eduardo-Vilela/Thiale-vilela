@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.tamañoTexto-1 {
+  font-size: 50px; }
+
+.tamañoTexto-2 {
+  font-size: 100px; }
+
+.tamañoTexto-3 {
+  font-size: 150px; }
+
+.tamañoTexto-4 {
+  font-size: 200px; }
+
+.tigre-icon {
+  background-image: url("/images/tigre.png"); }
+
+.sea-slug-icon {
+  background-image: url("/images/sea-slug.png"); }
+
+.egret-icon {
+  background-image: url("/images/egret.png"); }
+
+.btn--facebook {
+  background-color: #d8af97; }
+
+.btn--twitter {
+  background-color: teal; }
+
+.btn--instagram {
+  background-color: red; }
+
+/*variables*/
+h1 {
+  font-family: 'Carter One', cursive; }
+
+p, h5 {
+  font-family: 'Carter One', cursive;
+  text-align: center; }
+
+.card-text {
+  color: black;
+  text-transform: unset; }
+
+/*variables*/
+body {
+  background-color: #d8af97; }
+
+header, nav, footer {
+  background-color: teal; }
+
+.barra {
+  color: blue; }
+  .barra__2 {
+    color: blueviolet; }
+  .barra__3 {
+    color: chartreuse; }
+  .barra__4 {
+    color: deeppink; }
+
+.marca {
+  color: fuchsia; }
+  .marca__1 {
+    color: green; }
+  .marca__2 {
+    color: indianred; }
+  .marca__3 {
+    color: royalblue; }
+
+.boton {
+  color: springgreen;
+  text-transform: uppercase; }
+  .boton__2 {
+    color: violet;
+    text-transform: uppercase; }
+  .boton__3 {
+    color: yellow;
+    text-transform: uppercase; }
+  .boton__4 {
+    color: cornflowerblue;
+    text-transform: uppercase; }

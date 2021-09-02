@@ -1,0 +1,28 @@
+//--variable--//
+@for $var from 1 to 5 {
+  .tamañoTexto-#{$var}{
+    font-size: 50px * $var;
+  }
+}
+@each $animal in tigre, sea-slug, egret {
+  .#{$animal}-icon {
+    background-image: url("/images/#{$animal}.png");
+  }
+}
+//--maps--//
+$redes: (
+  facebook: #d8af97,
+  twitter: teal,
+  instagram: red,
+);
+
+@each $redes, $color in $redes {
+  .btn--#{$redes} {
+    background-color: $color;
+}
+}
+.stkyNav {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}

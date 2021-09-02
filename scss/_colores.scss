@@ -1,0 +1,60 @@
+/*variables*/
+$fondo:#d8af97;
+$teal:teal;
+$green:green;
+$color:#d8af97;
+
+body {
+    @if $color == negro {
+      background-color: green;
+    }
+    @else if $color == white {
+        background-color: greenyellow;
+     }
+    @else {
+        background-color: #d8af97;
+    }
+}
+header,nav,footer {
+    background-color: $teal;
+}
+.barra {
+    color: blue;
+    &__2 {
+        color: blueviolet;
+    }
+    &__3 {
+        color: chartreuse;
+    }
+    &__4 {
+        color: deeppink;
+    }
+}
+.marca {
+    color: fuchsia;
+    &__1 {
+        color: green;
+    }
+    &__2 {
+        color: indianred;
+    }
+    &__3 {
+        color: royalblue;
+    }
+} 
+.boton {
+    color: springgreen;
+    text-transform: uppercase;
+    &__2 {
+        color: violet;
+        text-transform: uppercase;
+    }
+    &__3 {
+        color: yellow;
+        text-transform: uppercase;
+    }
+    &__4 {
+        color: cornflowerblue;
+        text-transform: uppercase;
+    }
+}
